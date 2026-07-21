@@ -1,0 +1,6 @@
+{
+  "name": "Hytaý Kompaniýasynda Täze Iş Mümkinçilikleri",
+  "description": "Hytaý kompaniýasy bilen hyzmatdaşlykda täze biznes we iş mümkinçiliklerini hödürleýän ýokary derejede müşderi çekiji (High-converting) Landing Page sahypasy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

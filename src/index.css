@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Poppins', 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+  }
+}
+
+.font-heading {
+  font-family: 'Montserrat', 'Poppins', sans-serif;
+}
+
+/* Custom glow and animations */
+@keyframes pulse-subtle {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 10px 25px -5px rgba(217, 119, 6, 0.4);
+  }
+  50% {
+    transform: scale(1.02);
+    box-shadow: 0 20px 35px -5px rgba(217, 119, 6, 0.6);
+  }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 3s infinite ease-in-out;
+}
+
+/* Green gradient & theme variables */
+.bg-brand-green {
+  background-color: #2e7d32;
+}
+
+.text-brand-green {
+  color: #2e7d32;
+}
+
+.border-brand-green {
+  border-color: #2e7d32;
+}
+
+/* Custom button hover transitions */
+.btn-gold {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  color: #ffffff;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-gold:hover {
+  background: linear-gradient(135deg, #fbbf24 0%, #b45309 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px -5px rgba(217, 119, 6, 0.4);
+}
+
+.btn-green {
+  background: linear-gradient(135deg, #2e7d32 0%, #1b5e20 100%);
+  color: #ffffff;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-green:hover {
+  background: linear-gradient(135deg, #388e3c 0%, #144716 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px -5px rgba(46, 125, 50, 0.4);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
