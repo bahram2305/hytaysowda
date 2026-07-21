@@ -4,7 +4,8 @@ export function generateSingleFileHTML(): string {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hytaý Kompaniýasynda Täze Iş Mümkinçilikleri!</title>
+  <title>Hytaýda Iş - Biznes Mümkinçilikleri</title>
+  <meta name="description" content="Hytaý kompaniýasynda täze iş we biznes mümkinçilikleri. Garaşsyz biznes, mugt tälim, durnukly girdeji.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">

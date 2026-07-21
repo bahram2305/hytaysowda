@@ -13,20 +13,23 @@ export const Header: React.FC<HeaderProps> = () => {
           
           {/* Logo & Brand */}
           <div className="flex items-center space-x-2 sm:space-x-3 min-w-0 pr-2">
-            <div className="w-9 h-9 sm:w-10 sm:h-10 bg-[#2e7d32] rounded-lg flex items-center justify-center text-white font-bold text-sm sm:text-lg shadow-xs shrink-0">
-              <span>CN</span>
-            </div>
+            <img
+              src="/src/assets/images/app_logo_icon_1784662703793.jpg"
+              alt="Hytaýda Iş Icon"
+              referrerPolicy="no-referrer"
+              className="w-9 h-9 sm:w-10 sm:h-10 rounded-lg object-cover shadow-xs border border-emerald-600/20 shrink-0"
+            />
             <div className="min-w-0">
               <div className="flex items-center space-x-2">
-                <span className="text-base sm:text-xl font-bold tracking-tight text-[#2e7d32] font-heading whitespace-nowrap">
-                  BIZNES PURSAT
+                <span className="text-base sm:text-xl font-extrabold tracking-tight text-[#2e7d32] font-heading whitespace-nowrap">
+                  HYTAÝDA IŞ
                 </span>
                 <span className="hidden sm:inline-flex items-center px-2 py-0.5 rounded text-xs font-semibold bg-emerald-50 text-[#2e7d32] border border-emerald-200">
-                  Hytaý Hyzmatdaşlygy
+                  Biznes Mümkinçilikleri
                 </span>
               </div>
               <p className="text-[11px] sm:text-xs text-gray-500 font-medium truncate leading-tight">
-                Täze Iş & Biznes Mümkinçilikleri
+                Täze Iş & Durnukly Girdeji Ulgamy
               </p>
             </div>
           </div>
